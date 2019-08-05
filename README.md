@@ -45,8 +45,8 @@ generator-spicychocolate
 ```
 
 ### 配置
-`generators/app/templates/`是默认存放文件的目录，把所有模版文件放在这个目录下
-`/generators/app/index.js`是Yeoman的配置文件，定义如何生成脚手架
+- `generators/app/templates/`是默认存放文件的目录，把所有模版文件放在这个目录下
+- `/generators/app/index.js`是Yeoman的配置文件，定义如何生成脚手架
 
 Yeoman生命周期如下
 ```javascript
