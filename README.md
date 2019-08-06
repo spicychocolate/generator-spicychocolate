@@ -44,7 +44,6 @@ generator-spicychocolate
 └── package.json
 ```
 
-### 配置
 - `generators/app/templates/`是默认存放文件的目录，把所有模版文件放在这个目录下
 - `/generators/app/index.js`是Yeoman的配置文件，定义如何生成脚手架
 
@@ -66,7 +65,6 @@ end - 生成器结束阶段
 在本地开发，使用npm link命令, 相当于在全局安装了此脚手架，然后在新文件夹中执行yo，选择脚手架，便可以测试
 
 ### 发布
-在[npm](https://www.npmjs.com/signup)官网上注册账号
 ```javascript 
 npm set registry https://registry.npmjs.org/ // 设置源
 npm adduser 
